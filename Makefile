@@ -21,4 +21,4 @@ DummyGuessers.o: Guesser.hpp calculate.hpp
 SmartGuesser.o:  SmartGuesser.hpp Guesser.hpp 
 
 clean:
-rm -f *.o demo test
+	rm -f *.o demo test
